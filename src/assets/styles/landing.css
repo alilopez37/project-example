@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    border: red 2px dashed;
+    display: flex;
+    align-items: center;
+}
+.container--img {
+    border: red 1px solid;
+    width: 30%;
+}
+
+.container--img img {
+    width: 80%;
+}
+.container--text {
+    border: blue 1px solid;
+    width: 70%;
+}
+
+.container--text p {
+    padding: 0 20px;
+}

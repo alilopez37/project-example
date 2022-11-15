@@ -1,0 +1,17 @@
+.container-character  {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-character--item {
+    width: 30%;
+    border: gray 2px solid;
+    position: relative;
+}
+
+.container-character img {
+    width: 90%;
+    transform: translateX(5%);
+}
